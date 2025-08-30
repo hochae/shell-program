@@ -8,7 +8,7 @@
 
 ### 2. `파일` menu -> `가상시스템 가져오기`를 선택한다
 
-![img1](img/ubuntu_dt_img1.png)
+<img src="img/ubuntu_dt_img1.png" width="300" height="200">
 
 ### 3. `가상시스템 가져오기` 창에서 다음을 진행한다
 
@@ -16,7 +16,7 @@
 * `설정`세션에서 `MAC 주소 정책`을 `모든 네트웍 어뎁터에 새 MAC 주소 생성` 을 선택
 * `완료`를 선택하고 진행
 
-![img2](img/ubuntu_dt_img2.png)
+<img src="img/ubuntu_dt_img2.png" width="400" height="350">
 
 ### 4. import한 가상 시스템 setting
 
