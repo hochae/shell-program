@@ -16,6 +16,8 @@ for additional information
 ### [Ubuntu Desktop 환경 설정](./ubuntu_desktop.md)
 목적: 교재에서 VirtualBox(VB) 5.2.26을 기반으로 설명하고 있지만 수업은 VB 7.1.4를 기반으로 진행한다. 따라서 추후 참고할 자료가 필요한 경우를 위해 정리한다.
 
+## [vimrc example](vimrc.md)
+
 ## man
 
 ### 리눅스 `man` 페이지 섹션
