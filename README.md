@@ -175,5 +175,6 @@ round up (ceil)되는 것 같습니다.
 1048576B의 파일의 경우 -size +1M 적용시 기준 값보다 크지 않기 때문에 결과에 출력되지 않으며
 1B 큰 1048577B 파일의 경우 -size +1M 적용시 결과로 출력되는 것을 확인했습니다.
 ```
-### $ 의 어원: ![link]( https://www.shutterstock.com/shutterstock/photos/1542454898/display_1500/stock-vector-anchor-and-rope-vector-logo-icon-nautical-maritime-sea-ocean-boat-illustration-symbol-anchor-1542454898.jpg)
+### $ : anchor 의 어원
+<img src="https://www.shutterstock.com/shutterstock/photos/1542454898/display_1500/stock-vector-anchor-and-rope-vector-logo-icon-nautical-maritime-sea-ocean-boat-illustration-symbol-anchor-1542454898.jpg" width="200" height="200">
 
