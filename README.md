@@ -203,6 +203,16 @@ ReEx에서 적용되는 Escape Sequence를 정리하면 아래와 같다.
 
 ---
 
+## awk field seperators
+
+| 변수 | 이름 | 역할 | 기본값 |
+| :--- | :--- | :--- | :--- |
+| **`FS`** | Field Separator | **입력** 데이터를 \*\*필드($N)\*\*로 **분할** | 공백 또는 탭 (정규 표현식으로 동작) |
+| **`OFS`** | Output Field Separator | `print` 문에서 **필드와 필드 사이**에 **출력** | 공백 |
+| **`ORS`** | Output Record Separator | `print` 문으로 **한 레코드 출력 후** 끝에 **출력** | 줄 바꿈 문자 (`\n`) |
+
+---
+
 ## find -size +1M 에 대한 실험 결과( 현동일 님 )
 ```txt
 find -size 옵션에서 M단위를 사용할 경우,
