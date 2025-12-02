@@ -222,7 +222,17 @@ ReEx에서 적용되는 Escape Sequence를 정리하면 아래와 같다.
 * **배포판/버전 차이:** 위에 설명된 지시자는 **GNU coreutils**의 `ls` 버전을 기준으로 하며, 사용하는 Unix/Linux 시스템의 배포판이나 버전에 따라 일부 지시자(`>` 도어 등)의 사용 가능 여부나 의미가 조금 다를 수 있습니다.
 * **파일 유형 파악:** 이 옵션은 파일의 유형을 한눈에 파악하는 데 매우 유용합니다.
 ---
+## C-style for loop
 
+: from bash 2.04
+```shell
+    for (( i=0; i<5; i++ ))
+    do
+        echo "C-style iteration $i"
+    done
+```
+
+---
 ## awk field seperators
 
 | 변수 | 이름 | 역할 | 기본값 |
