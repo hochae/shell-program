@@ -233,13 +233,34 @@ ReEx에서 적용되는 Escape Sequence를 정리하면 아래와 같다.
 ```
 
 ---
-## awk field seperators
+## awk 
+### Automatically updated
+| Variable |	Description |
+| :--- | :--- |
+|$0	| 전체 현재 입력 레코드(행)|
+|$n	| 현재 레코드의 n번째 필드(예: $1, $2)|
+|NR	| 처리된 총 입력 레코드 수|
+|NF	| 현재 입력 레코드의 필드(컬럼) 수|
+|$NF	| 현재 레코드에서 마지막 필드의 값|
+|FNR |	현재 파일 내의 현재 레코드 번호|
+
+### Field seperators
 
 | 변수 | 이름 | 역할 | 기본값 |
 | :--- | :--- | :--- | :--- |
 | **`FS`** | Field Separator | **입력** 데이터를 \*\*필드($N)\*\*로 **분할** | 공백 또는 탭 (정규 표현식으로 동작) |
+| **`RS`** | Input Record Seperator |	**입력** 레코드(Record) 구분자.	| 개행 문자 (\n)|
 | **`OFS`** | Output Field Separator | `print` 문에서 **필드와 필드 사이**에 **출력** | 공백 |
 | **`ORS`** | Output Record Separator | `print` 문으로 **한 레코드 출력 후** 끝에 **출력** | 줄 바꿈 문자 (`\n`) |
+
+### Others
+| Variable |	Description |
+| :--- | :--- |
+|FILENAME | 현재 입력 파일의 이름|
+|ARGC | 명령줄 인수의 개수|
+|ARGV | 명령줄 인수들을 담고 있는 배열|
+|CONVFMT | 숫자를 문자열로 변환하기 위한 기본 형식|
+|SUBSEP | 다차원 배열의 하위 스크립트(인덱스)를 구분하는 데 사용되는 문자|
 
 ---
 
