@@ -262,6 +262,13 @@ ReEx에서 적용되는 Escape Sequence를 정리하면 아래와 같다.
 |CONVFMT | 숫자를 문자열로 변환하기 위한 기본 형식|
 |SUBSEP | 다차원 배열의 하위 스크립트(인덱스)를 구분하는 데 사용되는 문자|
 
+## Regualar Expression: Match expression
+| Syntax | Description |
+| :--- | :--- |
+| **`expr`** **~** **/RegEx/** |  a substring of expr is in the set of strings defined by r |
+| **`expr`** **!~** **/RegEx/** | a substring of expr is not in the set of strings defined by r |
+
+
 ---
 
 ## find -size +1M 에 대한 실험 결과( 현동일 님 )
